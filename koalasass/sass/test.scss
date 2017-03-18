@@ -1,0 +1,22 @@
+//This is sass file 
+$color: #888; 
+$bgColor: #f36; 
+header { color: $color; background-color: $bgColor; }
+.tt{font-size:16px;}
+.wt{font-size:11px;}
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+  span{font-size:11px;}
+}
